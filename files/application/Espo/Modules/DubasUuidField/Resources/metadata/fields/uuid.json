@@ -1,0 +1,24 @@
+{
+    "params": [
+        {
+            "name": "uuidVersion",
+            "type": "enum",
+            "default": "4",
+            "options": [
+                "1",
+                "4"
+            ],
+            "translation": "UuidManager.options.uuidVersion"
+        }
+    ],
+    "view": "dubas-uuid-field:views/fields/uuid",
+    "filter": true,
+    "fieldDefs": {
+        "type": "varchar",
+        "len": 36,
+        "notNull": false,
+        "unique": false
+    },
+    "textFilter": true,
+    "readOnly": true
+}

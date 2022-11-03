@@ -1,0 +1,14 @@
+{
+    "name": "WaqasSoft UUID Field",
+    "description": "Add field for generating universally unique identifiers (UUIDs).",
+    "author": "WaqasSoft - aliwaqas.sdk@hotmail.com",
+    "php": [
+        ">=7.3"
+    ],
+    "acceptableVersions": [
+        ">=6.1.0"
+    ],
+    "version": "1.0.0",
+    "skipBackup": true,
+    "releaseDate": "2021-05-24"
+}
